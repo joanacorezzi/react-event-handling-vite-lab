@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import '../App.css'
-import PasswordInput from './PasswordInput'
-import SubmitButton from './SubmitButton'
+//import both components
+import PasswordInput from './PasswordInput';
+import SubmitButton from './SubmitButton';
 
 function App() {
 
@@ -10,7 +9,7 @@ function App() {
       <PasswordInput/>
       <SubmitButton/>
     </div>
-  )
+  );
 }
 
 export default App
